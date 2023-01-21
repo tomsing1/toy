@@ -2,8 +2,8 @@ Package: toy
 Type: Package
 Title: A toy R package
 Version: 0.1.0
-Authors@R: c(
-    person("Thomas", "Sandmann", , "tomsing1@gmail.com", c("aut", "cre")),
+Authors@R:
+    person("Thomas", "Sandmann", , "tomsing1@gmail.com", c("aut", "cre"))
 Description: This is just a toy R package to experiment with building,
     and sharing R packages in a custom drat repository.
 License: MIT + file LICENSE

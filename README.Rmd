@@ -1,0 +1,42 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# toy R package
+
+<!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+<!-- badges: end -->
+
+This is a toy R package that can be used to experiment with testing,
+building and sharing R packages, e.g. via 
+[drat](https://cran.r-project.org/package=drat).
+
+## Installation
+
+You can install the development version of toy from [GitHub](https://github.com/) with:
+
+```{r eval=FALSE}
+if (!requireNamespace("remotes", quietly = TRUE)) {
+  install.packages("remotes")
+}
+remotes::install_github("tomsing1/toy")
+```
+
+## Example
+
+```{r example}
+library(toy)
+hello()
+```
